@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="2style.css">
+  <link rel="stylesheet" href="3style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <title>Global Search Engine</title>
+</head>
+
+<body>
+  <div class="search-box">
+    <input class="search-txt" type="text" name="" placeholder="Type to search">
+    <a class="search-btn" href="#">
+      <i class="fas fa-search"></i>
+    </a>
+  </div>
+  <div class="middle">
+    <div class="menu">
+      <li class="item" id='Profile'>
+        <a href="#Profile" class="btn"><i class="far fa-user"></i>Profile</a>
+        <div class="smenu">
+          <a herf="#">Posts</a>
+          <a herf="#">Picture</a>
+        </div>
+      </li>
+
+      <li class="item" id='Messages'>
+        <a href="#Messages" class="btn"><i class="far fa-envelope"></i></i>Messages</a>
+        <div class="smenu">
+          <a herf="#">New</a>
+          <a herf="#">Sent</a>
+          <a herf="#">Spam</a>
+        </div>
+      </li>
+
+      <li class="item" id='Settings'>
+        <a href="#Settings" class="btn"><i class="fas fa-cog"></i></i>Settings</a>
+        <div class="smenu">
+          <a herf="#">Passwords</a>
+          <a herf="#">Language</a>
+        </div>
+      </li>
+
+      <li class="item">
+        <a class="btn" href="#"><i class="fas fa-sign-out-alt"></i>logout</a>
+    </div>
+  </div>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">Activites</a>
+      <a href="#">News</a>
+      <a href="#">Map</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+ 
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
+
+</html>
