@@ -1,1 +1,77 @@
 <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="2style.css">
+  <link rel="stylesheet" href="3style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <title>Global Search Engine</title>
+</head>
+
+<body>
+  <div class="search-box">
+    <input class="search-txt" type="text" name="" placeholder="Type to search">
+    <a class="search-btn" href="#">
+      <i class="fas fa-search"></i>
+    </a>
+  </div>
+  <div class="middle">
+    <div class="menu">
+      <li class="item" id='Profile'>
+        <a href="#Profile" class="btn"><i class="far fa-user"></i> </i>Profile</a>
+        <div class="smenu">
+          <a herf="#">Posts</a>
+          <a herf="#">Picture</a>
+        </div>
+      </li>
+      
+      <li class="item" id='Xbox'>
+        <a href="#Xbox" class="btn"><i class="fab fa-xbox"></i> </i>Xbox</a> 
+        <div class="smenu">
+          <a href="https://www.xbox.com/en-US" target="-blank">Xbox Home Page</a>
+        </div>
+      </li>
+      
+      <li class="item" id='Playstation'>
+        <a href="#Playstation" class="btn"><i class="fab fa-playstation"></i> </i>Playstation</a> 
+        <div class="smenu">
+          <a href="https://www.playstation.com/en-us/" target="-blank">Playstation Home Page</a> 
+        </div>
+      </li>
+
+      <li class="item" id='Settings'>
+        <a href="#Settings" class="btn"><i class="fas fa-cog"></i> </i>Settings</a>
+        <div class="smenu">
+          <a herf="#">Passwords</a>
+          <a herf="#">Language</a>
+        </div>
+      </li>
+
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+      <a href="#">Home</a>
+      <a href="https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en" target="-blank">News</a> 
+      <a href="https://www.google.com/maps" target="-blank">Map</a> 
+      <a href="https://translate.google.com/" target="-blank">Translater</a>
+      <a href="https://www.google.com/gmail/about/#" target="-blank">Gmail</a>
+      <a href="file:///home/krishnat/Rudra%20Javascript/Game.html" target="-blank">Games Menu</a> 
+      <a href="file:///home/krishnat/Rudra%20Javascript/Social%20media.html" target="_blank">Social media</a>
+      <a href="file:///home/krishnat/Rudra%20Javascript/login.html">Logout</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+ 
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
+
+</html>

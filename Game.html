@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="5style.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="file:///home/krishnat/Rudra%20Javascript/About%20menu.html" target="_blank">About Game menu</a>
+  <a href="file:///home/krishnat/Rudra%20Javascript/index2.html" target="_blank">Guess my number game</a>
+  <a href="https://www.playstation.com/en-us/" target="_blank">Playstation Home Page</a>
+  <a href="https://www.xbox.com/en-US" target="_blank">Xbox Home Page</a>
+  <a href="https://store.steampowered.com/" target="_blank" >Steam home page</a>
+  <a href="https://www.epicgames.com/id/login?productName=unrealtournament&redirectUrl=https%3A%2F%2Fwww.epicgames.com%2Funrealtournament%2Fen-US%2Fdownload&client_id=f0b883ba7d3646bba4aa11bf1d71c071&noHostRedirect=true" target="_blank" >Epic Games Launcher</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Game Menu</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
+</html> 

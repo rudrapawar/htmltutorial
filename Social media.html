@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="5style.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://www.youtube.com/" target="-blank">Youtube</a>
+  <a href="https://www.twitch.tv/" target="_blank">Twitch</a>
+  <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+  <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+  <a href="https://www.tiktok.com/en" target="_blank">Tik tok</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Social media Menu</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
+</html> 
